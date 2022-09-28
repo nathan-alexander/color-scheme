@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="color-picker">
+      <form id="pick-color-scheme">
+        <input type="color" id="seed-color" />
+        <select name="select-scheme" id="select-scheme">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome (Dark)</option>
+          <option value="monochrome-light">Monochrome (Light)</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic Complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button id="get-color-scheme-button">Get color scheme</button>
+      </form>
+    </div>
+    <div class="color-scheme" id="color-scheme"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
